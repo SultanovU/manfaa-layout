@@ -1,0 +1,137 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 0;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #E1E1E1;
+  border-radius: 100px;
+  padding:7px 20px;
+  width: 588px;
+  gap: 10px;
+}
+
+.search_input{
+  border:none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  border-right: 1.5px solid #E1E1E1;
+  padding: 7px;
+}
+
+.search_btn{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav_right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.transletor{
+  border: none;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.to_cart img{
+  cursor: pointer;
+}
+
+.favorites img{
+  cursor: pointer;
+}
+
+.log_in{
+  background: linear-gradient(135deg, #FFA553 0%, #FF6C58 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding:9px 30px;
+  font-size: 20px;
+  gap: 10px;
+  border-radius: 22px;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header_links{
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.links li{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.banner_container{
+  background: linear-gradient(135deg, #69E4A3 0%, #D2E66A 56.25%, #FDE753 100%);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.banner{
+  padding: 30px 0;
+}
+
+.banner_left{
+  padding: 50px 40px;
+}
+
+.banner_left h1{
+  font-size: 78px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.banner_left p{
+  color: rgba(0, 0, 0, 0.68);
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.to_watch_btn{
+  background-color: transparent;
+  border: 2px solid rgba(51, 51, 51, 1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* .banner_right{
+  background-color: #333333;
+} */
+
+.banner_right {
+  background-color: #333333;
+ /* Ensure it takes full height */ /* Use flex to center the image */
+}
+
+.banner_right img {
+  height: 100%; /* Set image height to 100% */
+  width: auto; /* Maintain aspect ratio */ /* Cover the container while maintaining aspect ratio */
+}
