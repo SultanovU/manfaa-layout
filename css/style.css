@@ -12,8 +12,8 @@
   border: 1px solid #E1E1E1;
   border-radius: 100px;
   padding:7px 20px;
-  width: 588px;
   gap: 10px;
+  flex: auto;
 }
 
 .search_input{
@@ -35,6 +35,15 @@
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.nav_left{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 100px 0 0;
+  gap: 50px;
 }
 
 .transletor{
@@ -99,7 +108,7 @@
 }
 
 .banner_left h1{
-  font-size: 78px;
+  font-size: 48px;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 20px;
 }
